@@ -1,0 +1,9 @@
+{
+  "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n\n\nif __name__ == '__main__':\n    n = int(input().strip())\n    if n % 2 == 1:\n        print(\"Weird\")\n    elif 2 <= n <= 5:\n        print(\"Not Weird\")\n    elif 6 <= n <= 20:\n        print(\"Weird\")\n    else:\n        print(\"Not Weird\")",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Python If-Else",
+  "submissionDate": "2026-07-23T18:46:32.277Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/py-if-else/problem?isFullScreen=true"
+}
