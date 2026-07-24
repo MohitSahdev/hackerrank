@@ -1,0 +1,9 @@
+{
+  "code": "if __name__ == '__main__':\n    a = int(input())\n    b = int(input())\n    print(a // b)\n    print(a / b)",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Python: Division",
+  "submissionDate": "2026-07-24T18:38:05.987Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/python-division/problem?isFullScreen=true"
+}
