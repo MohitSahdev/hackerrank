@@ -1,0 +1,9 @@
+{
+  "code": "if __name__ == '__main__':\n    n = int(input())\n    for i in range(n):\n        print(i * i)",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Loops",
+  "submissionDate": "2026-07-24T18:40:39.264Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true"
+}
