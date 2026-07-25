@@ -1,0 +1,9 @@
+{
+  "code": "if __name__ == '__main__':\n    n = int(input())\n    for i in range(1, n + 1):\n        print(i, end=\"\")",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Print Function",
+  "submissionDate": "2026-07-25T18:56:39.413Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/python-print/problem?isFullScreen=true"
+}
