@@ -1,0 +1,9 @@
+{
+  "code": "if __name__ == '__main__':\n    x = int(input())\n    y = int(input())\n    z = int(input())\n    n = int(input())\n\n    print([[i, j, k]\n           for i in range(x + 1)\n           for j in range(y + 1)\n           for k in range(z + 1)\n           if i + j + k != n])",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "List Comprehensions",
+  "submissionDate": "2026-07-25T19:19:59.931Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/list-comprehensions/problem?isFullScreen=true"
+}
