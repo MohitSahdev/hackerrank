@@ -1,0 +1,9 @@
+{
+  "code": "if __name__ == '__main__':\n    n = int(input())\n    arr = list(map(int, input().split()))\n\n    arr = list(set(arr))\n    arr.sort()\n\n    print(arr[-2])",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Find the Runner-Up Score!",
+  "submissionDate": "2026-07-26T17:52:01.607Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem?isFullScreen=true"
+}
