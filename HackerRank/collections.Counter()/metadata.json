@@ -1,0 +1,9 @@
+{
+  "code": "from collections import Counter\n\nif __name__ == '__main__':\n    n = int(input())\n\n    shoes = list(map(int, input().split()))\n\n    shoe_count = Counter(shoes)\n\n    customers = int(input())\n\n    money = 0\n\n    for _ in range(customers):\n        size, price = map(int, input().split())\n\n        if shoe_count[size] > 0:\n            money += price\n            shoe_count[size] -= 1\n\n    print(money)",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "collections.Counter()",
+  "submissionDate": "2026-07-26T17:49:44.886Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/collections-counter/problem?isFullScreen=true"
+}
