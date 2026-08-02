@@ -1,0 +1,9 @@
+{
+  "code": "/*\nEnter your query here.\n*/\n\nSELECT DISTINCT CITY FROM STATION WHERE CITY REGEXP '^[AEIOUaeiou].*[AEIOUaeiou]$';",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Weather Observation Station 8",
+  "submissionDate": "2026-08-02T15:56:11.462Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/weather-observation-station-8/problem?isFullScreen=true"
+}
