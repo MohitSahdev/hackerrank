@@ -1,0 +1,9 @@
+{
+  "code": "/*\nEnter your query here.\n*/SELECT DISTINCT CITY from STATION WHERE CITY NOT REGEXP '[AEIOUaeiou]$';",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Weather Observation Station 10",
+  "submissionDate": "2026-08-03T21:51:04.353Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/weather-observation-station-10/problem?isFullScreen=true"
+}
