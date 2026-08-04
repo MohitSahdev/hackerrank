@@ -1,0 +1,9 @@
+{
+  "code": "/*\nEnter your query here.\n*/\nSELECT  name FROM EMPLOYEE ORDER BY name ASC;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Employee Names",
+  "submissionDate": "2026-08-04T20:55:11.038Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/name-of-employees/problem?isFullScreen=true"
+}
