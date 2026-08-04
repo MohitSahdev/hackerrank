@@ -1,0 +1,9 @@
+{
+  "code": "/*\nEnter your query here.\n*/\nSELECT NAME FROM STUDENTS where Marks >75 ORDER BY RIGHT(Name,3), ID;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Higher Than 75 Marks",
+  "submissionDate": "2026-08-04T20:44:53.046Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/more-than-75-marks/problem?isFullScreen=true"
+}
