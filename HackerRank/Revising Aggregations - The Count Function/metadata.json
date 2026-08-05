@@ -1,0 +1,9 @@
+{
+  "code": "SELECT count(*) from CITY WHERE POPULATION >100000;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Revising Aggregations - The Count Function",
+  "submissionDate": "2026-08-05T20:59:46.368Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/revising-aggregations-the-count-function/problem?isFullScreen=true"
+}
