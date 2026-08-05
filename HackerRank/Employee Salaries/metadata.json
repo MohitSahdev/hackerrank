@@ -1,0 +1,9 @@
+{
+  "code": "/*\nEnter your query here.\n*/\nselect name from employee where salary >2000 and months <10 \nORDER BY employee_id asc;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Employee Salaries",
+  "submissionDate": "2026-08-05T20:56:41.554Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/salary-of-employees/problem?isFullScreen=true"
+}
