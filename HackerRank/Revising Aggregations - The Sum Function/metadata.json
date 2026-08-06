@@ -1,0 +1,9 @@
+{
+  "code": "SELECT SUM(POPULATION) FROM CITY WHERE DISTRICT='California';",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Revising Aggregations - The Sum Function",
+  "submissionDate": "2026-08-06T17:19:02.042Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/revising-aggregations-sum/problem?isFullScreen=true"
+}
