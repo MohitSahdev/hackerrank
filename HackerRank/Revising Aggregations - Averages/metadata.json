@@ -1,0 +1,9 @@
+{
+  "code": "SELECT AVG(POPULATION) FROM CITY WHERE DISTRICT='California';",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Revising Aggregations - Averages",
+  "submissionDate": "2026-08-06T17:20:14.377Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/revising-aggregations-the-average-function/problem?isFullScreen=true"
+}
