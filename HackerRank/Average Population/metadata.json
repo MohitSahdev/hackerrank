@@ -1,0 +1,9 @@
+{
+  "code": "SELECT FLOOR(AVG(POPULATION)) FROM CITY;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Average Population",
+  "submissionDate": "2026-08-07T20:18:20.572Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/average-population/problem?isFullScreen=true"
+}
