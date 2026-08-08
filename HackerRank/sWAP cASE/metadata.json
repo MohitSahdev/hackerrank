@@ -1,0 +1,9 @@
+{
+  "code": "def swap_case(s):\n    return s.swapcase()\n\nif __name__ == '__main__':\n    s = input()\n    result = swap_case(s)\n    print(result)",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "sWAP cASE",
+  "submissionDate": "2026-08-08T21:02:18.503Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/swap-case/problem?isFullScreen=true"
+}
