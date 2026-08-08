@@ -1,0 +1,9 @@
+{
+  "code": "def print_full_name(first, last):\n    print(f\"Hello {first} {last}!You just delved into python.\")#\n# Complete the 'print_full_name' function below.\n#\n# The function is expected to return a STRING.\n# The function accepts following parameters:\n#  1. STRING first\n#  2. STRING last\n#\n\ndef print_full_name(first, last):\n    print(f\"Hello {first} {last}! You just delved into python.\")\n\nif __name__ == '__main__':\n    first_name = input()\n    last_name = input()\n    print_full_name(first_name, last_name)",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "What's Your Name?",
+  "submissionDate": "2026-08-08T20:57:20.082Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/whats-your-name/problem?isFullScreen=true"
+}
