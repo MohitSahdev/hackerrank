@@ -1,0 +1,9 @@
+{
+  "code": "SELECT SUM(POPULATION) FROM CITY WHERE COUNTRYCODE='JPN';",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Japan Population",
+  "submissionDate": "2026-08-09T18:54:33.724Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/japan-population/problem?isFullScreen=true"
+}
