@@ -1,0 +1,9 @@
+{
+  "code": "/*\nEnter your query here.\n*/\nSELECT ROUND(SUM(LAT_N),2),\nROUND(SUM(LONG_W),2)\nFROM STATION;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Weather Observation Station 2",
+  "submissionDate": "2026-08-10T20:15:39.048Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/weather-observation-station-2/problem?isFullScreen=true"
+}
