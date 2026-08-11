@@ -1,0 +1,9 @@
+{
+  "code": "/*\nEnter your query here.\n*/SELECT ROUND(MIN(LAT_N),4) FROM STATION WHERE LAT_N>38.7780;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Weather Observation Station 16",
+  "submissionDate": "2026-08-11T20:49:14.928Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/weather-observation-station-16/problem?isFullScreen=true"
+}
