@@ -1,0 +1,9 @@
+{
+  "code": "SELECT city.name FROM CITY JOIN country on city.countrycode=country.code where country.continent='Africa';",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "African Cities",
+  "submissionDate": "2026-08-12T19:02:33.861Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/african-cities/problem?isFullScreen=true"
+}
