@@ -1,9 +1,9 @@
 {
-  "code": "SELECT MAX(POPULATION)-MIN(POPULATION) FROM CITY;",
+  "code": "SELECT MAX(POPULATION) - MIN(POPULATION) from CITY;",
   "difficulty": "",
   "language": "unknown",
   "platform": "HackerRank",
   "problemName": "Population Density Difference",
-  "submissionDate": "2026-08-09T18:55:45.782Z",
+  "submissionDate": "2026-08-13T19:48:04.398Z",
   "submissionUrl": "https://www.hackerrank.com/challenges/population-density-difference/problem?isFullScreen=true"
 }
