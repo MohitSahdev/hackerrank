@@ -1,0 +1,9 @@
+{
+  "code": "#!/bin/python3\n\nimport math\nimport os\nimport random\nimport re\nimport sys\n\n# Complete the solve function below.\ndef solve(s):\n    return ' '.join(x.capitalize() for x in s.split(' '))\n\nif __name__ == '__main__':\n    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n\n    s = input()\n\n    result = solve(s)\n\n    fptr.write(result + '\\n')\n\n    fptr.close()\n",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Capitalize!",
+  "submissionDate": "2026-08-13T20:00:05.574Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/capitalize/problem?isFullScreen=true"
+}
