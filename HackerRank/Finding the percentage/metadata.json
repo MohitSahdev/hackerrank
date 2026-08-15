@@ -1,0 +1,9 @@
+{
+  "code": "n = int(input())\n\nstudent_marks = {}\n\nfor _ in range(n):\n    data = input().split()\n    name = data[0]\n    marks = list(map(float, data[1:]))\n    student_marks[name] = marks\n\nquery_name = input()\n\naverage = sum(student_marks[query_name]) / len(student_marks[query_name])\n\nprint(f\"{average:.2f}\")",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Finding the percentage",
+  "submissionDate": "2026-08-15T19:48:07.735Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/finding-the-percentage/problem?isFullScreen=true"
+}
