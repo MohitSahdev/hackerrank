@@ -1,9 +1,9 @@
 {
-  "code": "SELECT Name\nFROM STUDENTS\nWHERE Marks > 75\nORDER BY RIGHT(Name, 3), ID;",
+  "code": "SELECT Name\nFROM STUDENTS\nWHERE Marks > 75\nORDER BY RIGHT(Name, 3), ID;\n",
   "difficulty": "",
   "language": "unknown",
   "platform": "HackerRank",
   "problemName": "Higher Than 75 Marks",
-  "submissionDate": "2026-08-25T18:33:13.821Z",
+  "submissionDate": "2026-08-25T18:35:04.548Z",
   "submissionUrl": "https://www.hackerrank.com/challenges/more-than-75-marks/problem?isFullScreen=true"
 }
