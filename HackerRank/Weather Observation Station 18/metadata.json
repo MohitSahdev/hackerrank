@@ -1,0 +1,9 @@
+{
+  "code": "/*\nEnter your query here.\n*/\nSELECT round(MAX(LAT_N)- MIN(LAT_N)+ MAX(LONG_W)-MIN(LONG_W),4) FROM STATION;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Weather Observation Station 18",
+  "submissionDate": "2026-08-27T18:36:02.064Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/weather-observation-station-18/problem?isFullScreen=true"
+}
