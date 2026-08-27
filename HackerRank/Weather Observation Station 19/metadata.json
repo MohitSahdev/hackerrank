@@ -1,0 +1,9 @@
+{
+  "code": "/*\nEnter your query here.\n*/\nSELECT ROUND(\n    SQRT(\n        POW(MAX(LAT_N)-MIN(LAT_N),2)\n    +\n    POW(MAX(LONG_W)-MIN(LONG_W),2)\n    ),4\n)\n     FROM STATION;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Weather Observation Station 19",
+  "submissionDate": "2026-08-27T19:18:49.058Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/weather-observation-station-19/problem?isFullScreen=true"
+}
