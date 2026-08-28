@@ -1,0 +1,9 @@
+{
+  "code": "SELECT country.continent, floor(AVG(city.population)) from city JOIN country on CITY.CountryCode = COUNTRY.Code group by country.continent;",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Average Population of Each Continent",
+  "submissionDate": "2026-08-28T19:42:02.678Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/average-population-of-each-continent/problem?isFullScreen=true"
+}
