@@ -1,1 +1,1 @@
-SELECT SUM(city.POPULATION) FROM CITY join country on city.countrycode=country.code WHERE country.CONTINENT ='Asia';
+SELECT sum(city.population) from City join country on CITY.CountryCode = COUNTRY.Code where country.continent ='Asia'

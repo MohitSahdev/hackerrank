@@ -1,9 +1,9 @@
 {
-  "code": "SELECT SUM(city.POPULATION) FROM CITY join country on city.countrycode=country.code WHERE country.CONTINENT ='Asia';",
+  "code": "SELECT sum(city.population) from City join country on CITY.CountryCode = COUNTRY.Code where country.continent ='Asia'",
   "difficulty": "",
   "language": "unknown",
   "platform": "HackerRank",
   "problemName": "Population Census",
-  "submissionDate": "2026-08-12T18:53:49.522Z",
+  "submissionDate": "2026-08-30T16:06:54.699Z",
   "submissionUrl": "https://www.hackerrank.com/challenges/asian-population/problem?isFullScreen=true"
 }
