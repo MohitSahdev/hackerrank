@@ -1,0 +1,9 @@
+{
+  "code": "import re\n\nn = int(input())\n\nfor i in range(n):\n    card = input()\n    digits = card.replace(\"-\", \"\")\n\n    if card[0] not in \"456\":\n        print(\"Invalid\")\n    elif not digits.isdigit():\n        print(\"Invalid\")\n    elif len(digits) != 16:\n        print(\"Invalid\")\n    elif \"-\" in card and not re.fullmatch(r\"\\d{4}-\\d{4}-\\d{4}-\\d{4}\", card):\n        print(\"Invalid\")\n    elif re.search(r\"(\\d)\\1{3}\", digits):\n        print(\"Invalid\")\n    else:\n        print(\"Valid\")\n",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Validating Credit Card Numbers",
+  "submissionDate": "2026-08-31T20:36:25.280Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/validating-credit-card-number/problem?isFullScreen=true"
+}
