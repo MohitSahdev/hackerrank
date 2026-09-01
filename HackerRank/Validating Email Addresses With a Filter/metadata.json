@@ -1,0 +1,9 @@
+{
+  "code": "import re\ndef fun(s):\n    pattern = r'^[A-Za-z0-9_-]+@[A-Za-z0-9]+\\.[A-Za-z]{1,3}$'\n    return bool(re.match(pattern, s))\n    \ndef filter_mail(emails):\n    return list(filter(fun, emails))\n\nif __name__ == '__main__':\n    n = int(input())\n    emails = []\n    for _ in range(n):\n        emails.append(input())\n\nfiltered_emails = filter_mail(emails)\nfiltered_emails.sort()\nprint(filtered_emails)",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Validating Email Addresses With a Filter",
+  "submissionDate": "2026-09-01T19:33:09.504Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/validate-list-of-email-address-with-filter/problem?isFullScreen=true"
+}
