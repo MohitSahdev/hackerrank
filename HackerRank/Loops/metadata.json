@@ -1,9 +1,9 @@
 {
-  "code": "n = int(input())\n\nfor i in range(n):\n    print(i * i)",
+  "code": "n = int(input())\n\nfor i in range(n):\n    print(i ** 2)\n",
   "difficulty": "",
   "language": "unknown",
   "platform": "HackerRank",
   "problemName": "Loops",
-  "submissionDate": "2026-08-24T19:56:09.106Z",
+  "submissionDate": "2026-09-03T17:03:32.565Z",
   "submissionUrl": "https://www.hackerrank.com/challenges/python-loops/problem?isFullScreen=true"
 }
