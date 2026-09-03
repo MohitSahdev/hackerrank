@@ -1,0 +1,9 @@
+{
+  "code": "from collections import namedtuple\n\nn = int(input())\ncolumns = input().split()\nStudent = namedtuple('Student', columns)\n\ntotal = 0\nfor i in range(n):\n    data = input().split()\n    student = Student(*data)\n    total += int(student.MARKS)\n\naverage = total / n\nprint(f\"{average:.2f}\")\n",
+  "difficulty": "",
+  "language": "unknown",
+  "platform": "HackerRank",
+  "problemName": "Collections.namedtuple()",
+  "submissionDate": "2026-09-03T16:52:25.590Z",
+  "submissionUrl": "https://www.hackerrank.com/challenges/py-collections-namedtuple/problem?isFullScreen=true"
+}
