@@ -1,9 +1,9 @@
 {
-  "code": "def is_leap(year):\n    leap = False\n    if year%4==0:\n        leap=True\n    if year%100==0:\n        leap=False\n    if year %400==0:\n        leap=True\n    \n    return leap\n\nyear = int(input())\nprint(is_leap(year))",
+  "code": "def is_leap(year):\n    \n    leap = False\n    \n    if year % 400 == 0:\n        return True\n    elif year % 100 == 0:\n        return False\n    elif year % 4 == 0:\n        return True\n    else:\n        return False\n    \n    return leap\n\nyear = int(input())\nprint(is_leap(year))",
   "difficulty": "",
   "language": "unknown",
   "platform": "HackerRank",
   "problemName": "Write a function",
-  "submissionDate": "2026-08-31T19:57:02.834Z",
+  "submissionDate": "2026-09-17T17:30:31.250Z",
   "submissionUrl": "https://www.hackerrank.com/challenges/write-a-function/problem?isFullScreen=true"
 }
